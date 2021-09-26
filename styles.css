@@ -1,9 +1,35 @@
-h1{
-font-family: "Playfair Display", serif;
-font-weight: bold;
+
+.hero{
+    text-align: center;
+    background-color: #f9f7fe;
+    padding: 150px 30px;
 }
 
-p{
+.hero p{
+    font-family:"Poppins", sans-serif ;
+    font-weight: bold;
+    font-size: 36px;
+    color: #272142;
+}
+
+.hero h1{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+.hero h3{
     font-family:"Poppins", sans-serif ;
     font-weight: normal;
+    font-size: 24px;
+}
+
+.btn-button{
+    background-color: #6c63ff;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 4px;
+    padding: 18px 30px;
+    margin-top: 36px;
 }

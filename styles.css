@@ -33,3 +33,42 @@
     padding: 18px 30px;
     margin-top: 36px;
 }
+
+h2{
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+    line-height: 2;
+}
+
+.btn-yogurt-button{
+    color: #6c63ff;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 4px;
+    padding: 18px 30px;
+    margin-top: 36px;
+    border: 1px solid #6c63ff;
+}
+.present{
+    padding: 120px 60px;
+}
+@media(max-width:900px) {
+    .present{
+        padding: 0;
+        text-align: center;
+    }
+    .hero{
+        padding: 80px 20px;
+    }
+    .hero h1{
+        font-size:50px;
+    }
+    h2{
+        font-size:40px;
+    }
+}

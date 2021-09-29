@@ -1,8 +1,7 @@
-
 .hero{
     text-align: center;
     background-color: #f9f7fe;
-    padding: 150px 30px;
+    padding: 100px 30px;
 }
 
 .logo{
@@ -118,7 +117,7 @@ p{
 }
 
 .content{
-    padding: 160px 30px;
+    padding: 60px 30px;
 }
 
 .content h1

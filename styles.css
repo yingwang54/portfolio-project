@@ -23,8 +23,14 @@ nav a{
 }
 
 nav a:hover,
-nav li.active a{
+nav li.active a,
+.email:hover{
     color:#6c63ff;
+}
+
+.icon a:hover{
+    background:#6c63ff ;
+    color: #f9f7fe;
 }
 .hero p{
     font-family:"Poppins", sans-serif ;
@@ -40,6 +46,7 @@ nav li.active a{
 }
 
 .hero h3
+
 {
     font-family:"Poppins", sans-serif ;
     font-weight: normal;
@@ -53,9 +60,39 @@ nav li.active a{
     line-height: 27px;
     border-radius: 4px;
     padding: 18px 30px;
-    margin-top: 36px;
+    margin-top: 35px;
+}
+.email{
+    font-family:"Poppins", sans-serif ;
+    font-size: 24px; 
+    color: #272142;
+    text-decoration: none;
 }
 
+.icon a{
+color: #6c63ff;
+font-size: 18px;
+padding: 5px 9px;
+border-radius: 50%;
+background:#f9f7fe ;
+}
+
+.contact-info{
+    background: #f9f7fe;
+    padding: 30px 120px;
+    border-radius: 15px;
+}
+
+.contact-info h4{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contact-info p{
+    margin: 0px;
+    font-size: 18px;
+}
 h2{
     font-size: 64px;
     font-family: "Playfair Display", serif;
